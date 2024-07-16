@@ -1,0 +1,6 @@
+.layout{
+    display:flex;
+    height:100vh;
+    border: 3px solid red;
+    justify-content: space-evenly;
+}

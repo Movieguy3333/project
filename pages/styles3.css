@@ -1,0 +1,47 @@
+.grid{
+    display: grid;
+    grid-template-areas: "true_header true_header true_header true_header"
+                         ". header content . "
+                         ". header content . "
+                         ". header content . "
+                         " footer footer footer footer" ;
+                         
+    grid-template-columns: 15fr 35fr 35fr  15fr;
+    column-gap:  50px;
+ 
+
+    height:100vh;
+
+    
+}
+.grid > div {
+    background: yellow;
+    border: 2px solid gold;
+}
+.sidebar{
+    grid-area: sidebar;
+    
+}
+
+.header{
+    grid-area:header;
+   
+    
+    
+}
+.content{
+    grid-area:content;
+   
+  
+}
+.true_header{
+    grid-area:true_header;
+    padding:69px;
+}
+.footer{
+    grid-area:footer;
+    width:100%;
+
+padding:100px;
+}
+
